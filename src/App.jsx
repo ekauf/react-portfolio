@@ -1,9 +1,10 @@
 import "./App.scss";
+import Home from "./containers/Home/Home";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>it works</h1>
+      <Home />
     </div>
   );
 };
