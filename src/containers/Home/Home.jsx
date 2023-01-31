@@ -1,11 +1,13 @@
 import "./Home.scss";
 import Introduction from "../../components/Sections/Introduction/Introduction";
+import AboutMe from "../../components/Sections/AboutMe/AboutMe";
 
 const Home = () => {
   return (
     <>
       <div className="main">
         <Introduction />
+        <AboutMe />
 
         <section className="main-skills">
           <h2>Skills</h2>

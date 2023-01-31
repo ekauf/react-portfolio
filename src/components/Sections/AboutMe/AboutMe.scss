@@ -1,0 +1,15 @@
+.about-me {
+  padding: 1rem;
+  text-align: left;
+}
+
+.about-me__image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me__portrait {
+  max-width: 75%;
+  height: auto;
+  outline: 0.1rem black solid;
+}
