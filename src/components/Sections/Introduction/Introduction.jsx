@@ -16,6 +16,7 @@ const Introduction = () => {
         Aliquid tempore corporis pariatur delectus quia magni fugit commodi vel
         asperiores.
       </p>
+      <button>Take a look at my work</button>
     </section>
   );
 };

@@ -4,7 +4,7 @@ import portrait from "./../../../assets/images/other/EK-portrait.jpg";
 const AboutMe = () => {
   return (
     <section className="about-me">
-      <h1>01. About Me</h1>
+      <h1 className="about-me__title">01. About Me</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
         dolorum atque omnis temporibus minima dolor. Voluptatum quas eveniet

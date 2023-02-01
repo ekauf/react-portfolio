@@ -1,0 +1,19 @@
+@use "../../../styles/variables" as *;
+
+.skills__title {
+  color: $font-primary;
+}
+
+.skills__grid {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.skills__icons {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+figcaption {
+  color: $font-primary;
+}

@@ -1,6 +1,7 @@
 import "./Home.scss";
 import Introduction from "../../components/Sections/Introduction/Introduction";
 import AboutMe from "../../components/Sections/AboutMe/AboutMe";
+import Skills from "../../components/Sections/Skills/Skills";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <div className="main">
         <Introduction />
         <AboutMe />
+        <Skills />
 
         <section className="main-skills">
           <h2>Skills</h2>
