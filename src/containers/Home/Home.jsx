@@ -2,6 +2,7 @@ import "./Home.scss";
 import Introduction from "../../components/Sections/Introduction/Introduction";
 import AboutMe from "../../components/Sections/AboutMe/AboutMe";
 import Skills from "../../components/Sections/Skills/Skills";
+import Projects from "../../components/Sections/Projects/Projects";
 
 const Home = () => {
   return (
@@ -10,10 +11,8 @@ const Home = () => {
         <Introduction />
         <AboutMe />
         <Skills />
+        <Projects />
 
-        <section className="main-skills">
-          <h2>Skills</h2>
-        </section>
         <section className="main-projects">
           <h2>Projects</h2>
         </section>
