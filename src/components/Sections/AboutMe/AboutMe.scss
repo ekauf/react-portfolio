@@ -6,12 +6,13 @@
 }
 
 .about-me__title {
-  color: $font-primary;
+  color: $colour-black;
 }
 
 .about-me__image-container {
   display: flex;
   justify-content: center;
+  padding-top: 2rem;
 }
 
 .about-me__portrait {

@@ -1,7 +1,15 @@
 @use "../../../styles/variables" as *;
 
+.skills {
+  text-align: left;
+}
+
 .skills__title {
-  color: $font-primary;
+  color: black;
+}
+
+.skills__content {
+  padding: 1rem;
 }
 
 .skills__grid {
@@ -15,5 +23,5 @@
 }
 
 figcaption {
-  color: $font-primary;
+  color: $colour-secondary;
 }

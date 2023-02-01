@@ -16,7 +16,12 @@ const Introduction = () => {
         Aliquid tempore corporis pariatur delectus quia magni fugit commodi vel
         asperiores.
       </p>
-      <button>Take a look at my work</button>
+      <div className="introduction__container">
+        <button className="introduction__button">
+          Take a look at my work &nbsp;{" "}
+          <span className="introduction__bigger"> &#8628;</span>
+        </button>
+      </div>
     </section>
   );
 };

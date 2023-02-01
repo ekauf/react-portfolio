@@ -12,13 +12,15 @@ import git from "../../../assets/images/tech-skill-icons/Git_Logo.png";
 const Skills = () => {
   return (
     <section className="skills">
-      <h1 className="skills__title">02. Technical Skills</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-        debitis perferendis eos, libero vero reiciendis laboriosam laborum
-        voluptate, reprehenderit consequuntur ea mollitia voluptatibus deleniti
-        animi sit officia vitae praesentium enim.
-      </p>
+      <div className="skills__content">
+        <h1 className="skills__title">02. Technical Skills</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+          debitis perferendis eos, libero vero reiciendis laboriosam laborum
+          voluptate, reprehenderit consequuntur ea mollitia voluptatibus
+          deleniti animi sit officia vitae praesentium enim.
+        </p>
+      </div>
       <div className="skills__grid">
         <figure className="skills__icons">
           <img src={springBoot} alt="Spring Boot icon" />

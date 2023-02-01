@@ -1,8 +1,14 @@
-nav {
+@use "../../styles/variables" as *;
+
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  color: white;
+  color: $colour-primary;
+}
+
+.nav__initials {
+  font-size: 1.2rem;
 }

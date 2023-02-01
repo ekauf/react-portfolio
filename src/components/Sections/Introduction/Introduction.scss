@@ -13,7 +13,7 @@
 
 .introduction__name {
   font-size: 2rem;
-  color: $font-primary;
+  color: $colour-primary;
   margin-top: 0.1rem;
   margin-bottom: 0.1rem;
 }
@@ -27,4 +27,22 @@
 .introduction__paragraph {
   font-size: 1rem;
   margin-top: 2rem;
+}
+
+.introduction__bigger {
+  font-size: 1.5rem;
+}
+
+.introduction__container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.introduction__button {
+  padding: 0.5rem;
+  color: $colour-secondary;
+  background: none;
+  border: 0.1rem solid $colour-secondary;
+  border-radius: 0.5rem;
 }
