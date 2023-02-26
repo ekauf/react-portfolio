@@ -1,10 +1,18 @@
 @use "./../../styles/variables" as *;
 
-.Home {
+.main {
   text-align: center;
   background-color: $background;
 }
 
 p {
   color: $colour-secondary;
+}
+
+h1 {
+  color: $colour-primary;
+}
+
+h4 {
+  color: $colour-primary;
 }

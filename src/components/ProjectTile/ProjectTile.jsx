@@ -8,24 +8,33 @@ const ProjectTile = () => {
   return (
     <section className="project-tile">
       <div className="project-tile__container">
-        <img
-          className="project-tile__container__image"
-          src={wordle}
-          alt="Wordle"
-        />
+        <div className="project-tile__image__container">
+          <img
+            className="project-tile__container__project"
+            src={wordle}
+            alt="Wordle"
+          />
+        </div>
         <div className="project-tile__container__text-container">
-          <h3>Wordle</h3>
-          <div className="project-tile__container__text-container__links">
-            <a href="https://github.com/ekauf/project-js-game" target="_blank">
-              <img src={cat} alt="Link to code on GitHub" />
-            </a>
-            <a href="https://ekauf.github.io/project-js-game/">
-              <img src={external} alt="Link to live demo" />
-            </a>
-          </div>
-          <ul className="project-tile__container__text-container__ul">
-            <li>Javascript</li>
-          </ul>
+          <h3 className="project-tile__container__text-container__title">
+            Wordle
+            <div className="project-tile__container__text-container__links">
+              <a
+                href="https://github.com/ekauf/project-js-game"
+                target="_blank"
+              >
+                <img src={cat} alt="Link to code on GitHub" />
+              </a>
+              <a href="https://ekauf.github.io/project-js-game/">
+                <img src={external} alt="Link to live demo" />
+              </a>
+            </div>
+          </h3>
+          <p>
+            <span className="project-tile__container__text-container__tag">
+              Javascript
+            </span>
+          </p>
         </div>
         <p className="project-tile__container__p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quos ab
