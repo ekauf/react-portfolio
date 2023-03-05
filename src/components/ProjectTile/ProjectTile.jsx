@@ -30,18 +30,18 @@ const ProjectTile = () => {
               </a>
             </div>
           </h3>
+          <p className="project-tile__container__p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quos
+            ab quasi ea ullam sit mollitia laborum quod explicabo architecto
+            aperiam, consectetur cupiditate libero, facilis vero! Sapiente sequi
+            natus amet!
+          </p>
           <p>
             <span className="project-tile__container__text-container__tag">
               Javascript
             </span>
           </p>
         </div>
-        <p className="project-tile__container__p">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quos ab
-          quasi ea ullam sit mollitia laborum quod explicabo architecto aperiam,
-          consectetur cupiditate libero, facilis vero! Sapiente sequi natus
-          amet!
-        </p>
       </div>
     </section>
   );

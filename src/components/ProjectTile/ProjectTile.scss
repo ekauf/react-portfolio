@@ -5,14 +5,16 @@
 
   &__container {
     width: 85%;
-    padding-top: 1rem;
+    padding: 1rem;
     margin: 0 auto;
-    border-radius: 1rem;
+    border: 1px solid $colour-quaternary;
+    border-radius: 0.5rem;
+    background-color: $background-colour-four;
 
     &__project {
       display: flex;
       align-items: center;
-      width: 80%;
+      width: 100%;
     }
 
     &__text-container {
