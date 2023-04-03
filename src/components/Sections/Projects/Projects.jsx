@@ -1,13 +1,28 @@
 import "./Projects.scss";
 import ProjectTile from "../../ProjectTile/ProjectTile";
+import { projects } from "../../../data/data";
 
 const Projects = () => {
+  const projectTileJsx = projects.map(
+    ({ title, id, description, tags, image, linkWeb, linkGit }) => {
+      return (
+        <ProjectTile
+          key={id}
+          title={title}
+          description={description}
+          tags={tags}
+          image={image}
+          linkWeb={linkWeb}
+          linkGit={linkGit}
+        />
+      );
+    }
+  );
+
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <h1 className="projects__title">03. Projects</h1>
-      <div>
-        <ProjectTile />
-      </div>
+      <div>{projectTileJsx}</div>
     </section>
   );
 };

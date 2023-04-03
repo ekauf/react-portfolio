@@ -11,16 +11,17 @@ const Introduction = () => {
         </h1>
       </div>
       <p className="introduction__paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-        aperiam odit ducimus iste vero autem qui repudiandae similique est!
-        Aliquid tempore corporis pariatur delectus quia magni fugit commodi vel
-        asperiores.
+        I am a Junior Full-Stack Developer, having recently completed a 15-week
+        Junior Software Developer course with _nology. I gained hands-on
+        experience in: JavaScript, React, Java, APIS and more.
       </p>
       <div className="introduction__container">
-        <button className="introduction__button">
-          Take a look at my work &nbsp;{" "}
-          <span className="introduction__bigger"> &#8628;</span>
-        </button>
+        <a href="#projects">
+          <button className="introduction__button">
+            Take a look at my work &nbsp;{" "}
+            <span className="introduction__bigger"> &#8628;</span>
+          </button>
+        </a>
       </div>
     </section>
   );

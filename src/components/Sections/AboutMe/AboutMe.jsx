@@ -6,16 +6,15 @@ const AboutMe = () => {
     <section className="about-me">
       <h1 className="about-me__title">01. About Me</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-        dolorum atque omnis temporibus minima dolor. Voluptatum quas eveniet
-        tempore fugiat facilis non, incidunt culpa! Placeat obcaecati dolor
-        tenetur vel dolorum.
+        I’m a motivated and hardworking individual with professional experience
+        working in multiple sectors, with proven successes, whether managing a
+        team to deliver a successful operation or organising fundraising
+        projects and community events. ​ ​ I’m eager to be challenged in order
+        to improve and further develop my skillset.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-        blanditiis asperiores assumenda voluptates nam eum atque tempore
-        pariatur, ad quidem ullam dolorum nulla vero quo distinctio! Quam magni
-        eligendi delectus.
+        Although I have only just finished the _nology full stack course, I know
+        that a career in software development is perfect for me.
       </p>
       <div className="about-me__image-container">
         <img className="about-me__portrait" src={portrait} alt="portrait" />

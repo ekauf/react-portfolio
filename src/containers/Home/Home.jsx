@@ -12,16 +12,6 @@ const Home = () => {
         <AboutMe />
         <Skills />
         <Projects />
-
-        <section className="main-projects">
-          <h2>Projects</h2>
-        </section>
-        <section className="main-about">
-          <h2>About Me</h2>
-        </section>
-        <section className="main-contact">
-          <h2>Contact</h2>
-        </section>
       </div>
     </>
   );

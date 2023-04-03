@@ -14,12 +14,7 @@ const Skills = () => {
     <section className="skills">
       <div className="skills__content">
         <h1 className="skills__title">02. Technical Skills</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-          debitis perferendis eos, libero vero reiciendis laboriosam laborum
-          voluptate, reprehenderit consequuntur ea mollitia voluptatibus
-          deleniti animi sit officia vitae praesentium enim.
-        </p>
+        <p>These are the technical skills that I have been working on.</p>
       </div>
       <div className="skills__grid">
         <figure className="skills__icons">
